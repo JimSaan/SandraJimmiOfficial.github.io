@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>SQL PROJECTS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Sandra Jimmi</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="Python.html">Python Projects</a></li>
+							<li class="active"><a href="SQL.html">SQL Projects</a></li>
+							<li><a href="Excel.html">Excel Projects</a></li>
+							<li><a href="Tableau.html">Tableau Visualisations</a></li>						</ul>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BjzAHCutPSxOCtOraSp3aIA%3D%3D" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://github.com/JimSaan" class="icon brands fa-github"><span class="label" target="_blank">GitHub</span></a></li>
+							</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+						<section class="post">
+							<header class="major">
+								<h1>SQL PROJECTS</h1>
+							</header>	
+								<header>
+									<h3>Comprehensive Data Cleaning and Standardization for Nashville Housing Dataset</h3>
+									<p>This SQL project focuses on the cleaning, standardization, and transformation of the Nashville Housing dataset. Initially, the data is extracted and the sale dates are standardized for uniformity. The project addresses missing property addresses by leveraging other records with the same Parcel ID.
+
+										Subsequently, the Property and Owner addresses are broken down into individual columns for Address, City, and State, allowing for more granular analysis. The "Sold as Vacant" field is converted from 'Y' and 'N' to 'Yes' and 'No', enhancing the readability and consistency of the data.
+										
+										<br><br>The project also takes an essential step of removing duplicate records based on a set of key columns, ensuring data integrity. Unused columns are dropped to optimize the database, and finally, examples of importing data using the OPENROWSET and BULK INSERT methods are provided.
+										
+										Through these steps, this project demonstrates a comprehensive approach to data preprocessing, enhancing the quality and usefulness of the Nashville Housing dataset for subsequent analytics tasks.</p>
+								</header>
+								<p><ul class="actions special">
+									<li><a href="https://github.com/JimSaan/SQL-Projects/blob/main/Data%20Cleaning.sql" class="button small" target="_blank">View Project</a></li>
+								</ul></p>			
+								<header>
+									<h3>COVID-19 Data Analysis Using Advanced SQL Techniques</h3>
+									<p>This project involves the in-depth exploration and analysis of COVID-19 data, leveraging advanced SQL techniques such as joins, common table expressions (CTEs), temporary tables, window functions, aggregate functions, and data type conversions. The analysis covers several important aspects related to the COVID-19 pandemic. This includes the calculation of death rates, infection rates in relation to a country's population, and the highest infection and death counts across different countries and continents. Moreover, the study delves into vaccination trends, calculating the percentage of population vaccinated in various regions. The creation of SQL views facilitates future data visualization and further analysis. The project showcases the power of SQL in extracting meaningful insights from complex, real-world datasets.</p>
+								</header>
+								<p><ul class="actions special">
+									<li><a href="https://github.com/JimSaan/SQL-Projects/blob/main/COVID%20Project%20-%20Data%20Exploration.sql" class="button small" target="_blank">View Project</a></li>
+								</ul></p>				
+
+								<header>
+									<h3>COVID-19 Analysis Queries for Tableau Visualization</h3>
+									<p>These SQL queries are designed to fetch, organize and compute essential information from the 'CovidDeaths' and 'CovidVaccinations' tables. The information includes calculating total cases, total deaths, death percentage, total death count per location, highest infection count and the percentage of the population infected by COVID-19. It also includes detailed data for COVID-19 vaccinations. The resulting data is meant for analysis and visualization using Tableau.</p>
+								</header>
+								<p><ul class="actions special">
+									<li><a href="https://github.com/JimSaan/SQL-Projects/blob/main/Tableau%20Project%20using%20SQL%20.sql" class="button small" target="_blank">View Project</a></li>
+									<li><a href="https://public.tableau.com/app/profile/sandra.jimmi/viz/COVID_16861861775870/Dashboard1" class="button small" target="_blank">View Tableau Visualisation</a></li>
+								</ul></p>		
+								
+								
+								<hr />
+
+
+
+
+
+							</section>
+
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
